@@ -40,14 +40,10 @@ def replace_variables_in_file(file_path, replacements):
 def compile_email(replacements, output_file_path):
     compiled_content = ""
 
-    for index, (file_path, replacement) in enumerate(replacements):
+    for file_path, replacement in replacements:
         file_path = os.path.join(os.getcwd(), file_path.strip("/"))
         content = replace_variables_in_file(file_path, replacement)
-        
-        # Optionally, add a separator or comment to indicate repeated sections
-        compiled_content += f"<!-- Start of section {index + 1} from {file_path} -->\n"
-        compiled_content += content + "\n"
-        compiled_content += f"<!-- End of section {index + 1} from {file_path} -->\n\n"
+        compiled_content += content + "\n"  # This joins each file's content with a newline
 
     with open(output_file_path, 'w') as output_file:
         output_file.write(compiled_content)
