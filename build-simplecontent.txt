@@ -1,0 +1,163 @@
+# File: build.txt SIMPLE VERSION
+# This version just has template images and placeholder content.
+
+/source/WeeklyPerks_Header.html
+
+/source/WeeklyPerks_BodyTop.html
+<|preheadertext|> = "Preheader Text"
+
+/source/WeeklyPerks_TopBannerAndMenu.html
+<|authparam|> = "1234"
+<|communityid|> = "346"
+<|communityname|> = "Chipotle Test"
+<|category1|> = "Link"
+<|category1link|> = "www.google.com"
+<|category2|> = "Link"
+<|category2link|> = "www.google.com"
+<|category3|> = "Link"
+<|category3link|> = "www.google.com"
+<|category4|> = "Link"
+<|category4link|> = "www.google.com"
+
+
+/source/WeeklyPerks_Panel_SmallSmallSmall.html
+#Headline
+<|group[x].offers[0].global.assets.heroDetailsCopy|> = "Headline here"
+#OfferLink1
+<|group[x].offers[0].global.assets.heroLinkToUrl|> = "www.example1.com"
+#TrifectaMerchantImage1
+<|group[x].offers[0].global.assets[0].testimonialMerchantLogos|> = "https://cms.perkspot.com/media/j32bw5il/template-trifecta-logo-image.png"
+#MerchantName1
+<|group[x].offers[0].global.assets.merchantNameEmail|> = "Merchant One"
+#SavingStatement1
+<|group[x].offers[0].global.assets.heroHeaderCopy|> = "Savings Statement One"
+#OfferCode1
+<|group[x].offers[0].global.assets.heroSubHeaderCopy|> = "OfferCode1"
+#ButtonCopy1
+<|group[x].offers[0].global.assets.heroButtonCopy|> = "Shop Now"
+#OfferLink2
+<|group[x].offers[1].global.assets.heroLinkToUrl|> = "www.example2.com"
+#TrifectaMerchantImage2
+<|group[x].offers[1].global.assets[0].testimonialMerchantLogos|> = "https://cms.perkspot.com/media/j32bw5il/template-trifecta-logo-image.png"
+#MerchantName2
+<|group[x].offers[1].global.assets.merchantNameEmail|> = "Merchant Two"
+#SavingStatement2
+<|group[x].offers[1].global.assets.heroHeaderCopy|> = "Savings Statement Two"
+#OfferCode2
+<|group[x].offers[1].global.assets.heroSubHeaderCopy|> = "OfferCode1"
+#ButtonCopy2
+<|group[x].offers[1].global.assets.heroButtonCopy|> = "Shop Now"
+#OfferLink3
+<|group[x].offers[2].global.assets.heroLinkToUrl|> = "www.example3.com"
+#TrifectaMerchantImage3
+<|group[x].offers[2].global.assets[0].testimonialMerchantLogos|> = "https://cms.perkspot.com/media/j32bw5il/template-trifecta-logo-image.png"
+#MerchantName3
+<|group[x].offers[2].global.assets.merchantNameEmail|> = "Merchant Three"
+#SavingStatement3
+<|group[x].offers[2].global.assets.heroHeaderCopy|> = "Savings Statement Three"
+#OfferCode3
+<|group[x].offers[2].global.assets.heroSubHeaderCopy|> = "OfferCode1"
+#ButtonCopy3
+<|group[x].offers[2].global.assets.heroButtonCopy|> = "Shop Now"
+
+/source/WeeklyPerks_Panel_Large.html
+#OfferLink
+<|group[x].offers[x].global.assets.heroLinkToUrl|> = "https://www.example.com" 
+#LargeLogoImage
+<|group[x].offers[x].global.assets.heroDedicatedImage|> = "https://cms.perkspot.com/media/aavjynzt/template-large-logo-image.png" 
+#SavingsStatement
+<|group[x].offers[x].global.assets.heroHeaderCopy|> = "Large Placement. About forty characters long." 
+#OfferCode
+<|group[x].offers[x].global.assets.heroSubHeaderCopy|> = "12345" 
+#ButtonCopy
+<|group[x].offers[x].global.assets.heroButtonCopy|> = "Save Now" 
+
+
+/source/WeeklyPerks_Panel_Large.html
+#OfferLink
+<|group[x].offers[x].global.assets.heroLinkToUrl|> = "https://www.example.com" 
+#LargeLogoImage
+<|group[x].offers[x].global.assets.heroDedicatedImage|> = "https://cms.perkspot.com/media/aavjynzt/template-large-logo-image.png" 
+#SavingsStatement
+<|group[x].offers[x].global.assets.heroHeaderCopy|> = "Second Large Placement. About forty characters long." 
+#OfferCode
+<|group[x].offers[x].global.assets.heroSubHeaderCopy|> = "12345" 
+#ButtonCopy
+<|group[x].offers[x].global.assets.heroButtonCopy|> = "Buy it" 
+
+/source/WeeklyPerks_Panel_Trifecta.html
+#OfferLink
+<|group[x].offers[0].global.assets.heroLinkToUrl|> = "www.example.com"
+#SingleMerchantGroupLogoImage
+<|group[x].offers[0].global.assets.theLoopAdImage|> = "https://cms.perkspot.com/media/3ehhd35s/template-single-merchant-group-logo-image.png"
+#MerchantName 
+<|group[x].offers[0].global.assets.merchantNameEmail|> = "Merchant Name"
+#TrifectaImage1
+<|group[x].offers[0].global.assets[0].testimonialMerchantLogos|> = "https://cms.perkspot.com/media/1kxks05s/template-single-merchant-group-trifecta-image.png"
+#TrifectaImage2
+<|group[x].offers[0].global.assets[1].testimonialMerchantLogos|> = "https://cms.perkspot.com/media/1kxks05s/template-single-merchant-group-trifecta-image.png"
+#TrifectaImage3
+<|group[x].offers[x].global.assets[2].testimonialMerchantLogos|> = "https://cms.perkspot.com/media/1kxks05s/template-single-merchant-group-trifecta-image.png"
+#SavingsStatement
+<|group[x].offers[0].global.assets.heroHeaderCopy|> = "First savings statement"
+#SavingsStatement2
+<|group[x].offers[0].global.assets.closingHeaderCopy|> = "Second savings statement"
+#SavingsStatement3
+<|group[x].offers[0].global.assets.quoteCopy|> = "Third savings statement"
+#Button1 
+<|group[x].offers[0].global.assets.heroButtonCopy|> = "Button1"
+#Button2
+<|group[x].offers[1].global.assets.heroButtonCopy|> = "Button2"
+#Button2 
+<|group[x].offers[2].global.assets.heroButtonCopy|> = "Button2"
+#OfferCode
+<|group[x].offers[0].global.assets.heroSubHeaderCopy|> = "OFFER123"
+
+/source/WeeklyPerks_Panel_Duo.html
+#OfferLink
+<|group[x].offers[0].global.assets.heroLinkToUrl|> = "www.example.com"
+#SingleMerchantGroupLogoImage
+<|group[x].offers[0].global.assets.theLoopAdImage|> = "https://cms.perkspot.com/media/3ehhd35s/template-single-merchant-group-logo-image.png"
+#MerchantName 
+<|group[x].offers[0].global.assets.merchantNameEmail|> = "merchant name"
+#duoImage1
+<|group[x].offers[0].global.assets[0].testimonialMerchantLogos|> = "https://cms.perkspot.com/media/lnuntprj/template-single-merchant-group-duo-image.png"
+#duoImage2
+<|group[x].offers[0].global.assets[0].testimonialMerchantLogos|> = "https://cms.perkspot.com/media/lnuntprj/template-single-merchant-group-duo-image.png"
+#SavingsStatement1
+<|group[x].offers[0].global.assets.heroHeaderCopy|> = "Savings Statement 1"
+#SavingsStatement2
+<|group[x].offers[0].global.assets.closingHeaderCopy|> = "Savings Statement 2"
+#Button1Copy
+<|group[x].offers[0].global.assets.heroButtonCopy|> = "Save Now1"
+#Button2Copy
+<|group[x].offers[0].global.assets.closingButtonCopy|> = "Save Now2"
+#OfferCode
+<|group[x].offers[0].global.assets.closingButtonCopy|> = "PERK123"
+
+/source/WeeklyPerks_Panel_Duo.html
+#OfferLink
+<|group[x].offers[0].global.assets.heroLinkToUrl|> = "www.example.com"
+#SingleMerchantGroupLogoImage
+<|group[x].offers[0].global.assets.theLoopAdImage|> = "https://cms.perkspot.com/media/3ehhd35s/template-single-merchant-group-logo-image.png"
+#MerchantName 
+<|group[x].offers[0].global.assets.merchantNameEmail|> = "merchant name"
+#duoImage1
+<|group[x].offers[0].global.assets[0].testimonialMerchantLogos|> = "https://cms.perkspot.com/media/lnuntprj/template-single-merchant-group-duo-image.png"
+#duoImage2
+<|group[x].offers[0].global.assets[0].testimonialMerchantLogos|> = "https://cms.perkspot.com/media/lnuntprj/template-single-merchant-group-duo-image.png"
+#SavingsStatement1
+<|group[x].offers[0].global.assets.heroHeaderCopy|> = "2 Statement 1"
+#SavingsStatement2
+<|group[x].offers[0].global.assets.closingHeaderCopy|> = "Savings Statement 2"
+#Button1Copy
+<|group[x].offers[0].global.assets.heroButtonCopy|> = "Save Now1"
+#Button2Copy
+<|group[x].offers[0].global.assets.closingButtonCopy|> = "Save Now2"
+#OfferCode
+<|group[x].offers[0].global.assets.closingButtonCopy|> = "PERK123"
+
+/source/WeeklyPerks_Footer.html
+<|communityname|> = "Chipotle"
+<|disclaimers|> = "Disclaimers Here"
+<|optouturl|> = "www.example.com"

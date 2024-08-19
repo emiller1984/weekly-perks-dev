@@ -1,0 +1,300 @@
+# File: build.txt Campaign Manager Version
+# This version is based off the content from the CampMan test send from 8/12
+
+/source/WeeklyPerks_Header.html
+<|emailTitle|> = "PerkSpot"
+
+/source/WeeklyPerks_BodyTop.html
+<|preheadertext|> = "Don’t miss out on our handpicked travel deals just for you. Book now and save big!"
+
+#Header
+/source/WeeklyPerks_TopBannerAndMenu.html
+<|authparam|> = "upn=u001.Dj98eqP9WkUYDfxdQ7y2NM-2FJQdlPqDryrOo1J6ERanDtnqG-2BPKc13S6N68q5UiqItbz1Iim8Jx4TIdp-2BGKRJd9iobD0o8nbIbWLpVF-2B7mJj3-2FklxEZR8JVK-2BgPooLFxUwHB-2BzP3-2BbQ3SN6gBWGa6glF23X4cGL2RjSr1sUlBIYCobnjFSSxhpTHT7llUhFCjPOPTQahtczbPLlUtt-2FuO0B9nrPovLJ5HHcI5DrU5KXAJGUaDkWP7aiDy8wcRjRLRdk7NSX75aFeaeAy0nuuyIzTkUcXz1FjSXok86azzGAc-3DzFvj_Ym-2FkSDPyD7XSUqTbkLCbboCBlTZ1-2BzHg33Mu0Wxxmj3P6Eu9MggJOH3ic1hHoAMkFpPwpARGwOUNR6FWmn2B4VKhx8SChw45bObnghHmuHRelSkuU9q-2Bkyt3eVCLRfl2E57h-2FbA9amM4GRr1WrpNDKrnnZZbEkIxkdXlXtugQgi-2B3fLIcs-2BVrT2WinlDwTeXvjN-2FPK0S-2F-2FBN-2BJiTUMOluA-3D-3D"
+<|communityid|> = "346"
+<|communityname|> = "Chipotle Test"
+<|category1|> = "New Perks"
+<|category1link|> = "https://url1672.psnonprod.perkspot.com/ls/click?"
+<|category2|> = "Travel"
+<|category2link|> = "https://url1672.psnonprod.perkspot.com/ls/click?"
+<|category3|> = "Tickets & Attractions"
+<|category3link|> = "https://url1672.psnonprod.perkspot.com/ls/click"
+<|category4|> = "Gyms"
+<|category4link|> = "https://url1672.psnonprod.perkspot.com/ls/click"
+
+
+#LargePlacement
+/source/WeeklyPerks_Panel_Large.html
+#OfferLink
+<|group[x].offers[x].global.assets.heroLinkToUrl|> = "https://url1672.psnonprod.perkspot.com/ls/click?upn=u001.Dj98eqP9WkUYDfxdQ7y2NM-2FJQdlPqDryrOo1J6ERanBj6-2ByxFf-2FzBsGi4JJyXbCYeippeUlnSjhfcV68pb-2FXkWt-2B7sa5-2B7jmTHI32KqqzIC99zRyOiKAJIGt9Wv5FxSibaZOYzoWtXV-2B9xUtesolQkUQb6B1Zuok3DVU4T4dopgCa5ZxBbihghOjGRNdnSyH8FF6s8DSlZdU2C7yvdUl-2Bxnvy-2BURhReuw2ZLFu2myorvY2NgtBiDNZT9ePaXvhhJuW2GNMZ6-2B-2FTdbxKGIlFpQ4LtRdcDg9xIIaQht7-2FsDibCqYFd7afqZlFjM4GgKD89CxHyg-2F7cdL-2Fi3ixFPkMvG1iDbPrWFvjIO3mVVrzZkZ11hYZuML12r2lTzIrthAI2CuB4HkINmdUup8Tp-2Btgbew-3D-3DBT7u_Ym-2FkSDPyD7XSUqTbkLCbboCBlTZ1-2BzHg33Mu0Wxxmj3P6Eu9MggJOH3ic1hHoAMkFpPwpARGwOUNR6FWmn2B4czQvKxclQt8GtAj7fnN3nDZT1pbkfVEoldAI9awU6NCWLblQ5TS425YMwL419deUI4rsYwz6VXy74zJyhNgyZBTyCoIz-2F1bMsp-2BWkaG7re9p6UxHA-2F3TY-2FN7A5I0KitTA-3D-3D" 
+#LargeLogoImage
+<|group[x].offers[x].global.assets.heroDedicatedImage|> = "https://psprods3EP.azureedge.net/cdn.perkspot.com/prod%2fimages%2femailcontent%2f00000000-0000-0000-0000-000000000000%2f39211%2f240715154349%2fDedicatedHero.png?q=2024-08-06T15:06:48" 
+#MerchantName
+<|group[x].offers[x].global.assets.merchantNameEmail|> = "GlassesUSA.com"
+#SavingsStatement
+<|group[x].offers[x].global.assets.heroHeaderCopy|> = "55% Off Frames + 8% in Reward Points*" 
+#OfferCode
+<|group[x].offers[x].global.assets.heroSubHeaderCopy|> = "PERK5" 
+#ButtonCopy
+<|group[x].offers[x].global.assets.heroButtonCopy|> = "Save Now" 
+
+
+#SingleMerchantDuoConfig1MultiCTA
+/source/WeeklyPerks_Panel_Duo.html
+#OfferLink
+<|group[x].offers[0].global.assets.heroLinkToUrl|> = "https://url1672.psnonprod.perkspot.com/ls/click?upn=u001.Dj98eqP9WkUYDfxdQ7y2NM-2FJQdlPqDryrOo1J6ERanBj6-2ByxFf-2FzBsGi4JJyXbCYVrr2T7dM17mUjgLAVZX6LdJB4wMwlh54hKe1JZmbFWV3bPQ-2BmrucWuANLtNCVYTUZ10eup1mdzcDHScLT-2BxxhIeP73nU4g7txdpVWCCNWIvyVX3pznjyqxHyrDLdHeafW-2FmwZkXk1E0bsfvEyW6TcCFpAp-2BPy93bY1b6XRb8MC9dKoiHbqaPEhS7-2FuoAxi5OKGtC90punoLg7-2BTpD-2BZ1Em8BJwaWK9W4KhZrNYbLGANXP3FNCNLOM46MxCCXF-2FScv0vikLgW-2FDv3qMH2Awo3IsYXuljqZSoG27aQxS9ulB8xuDM5fnM3VxZu9ke-2BaLoNbVAyG-2BWaoyXu7lypTJ74Vg-3D-3DhWpV_Ym-2FkSDPyD7XSUqTbkLCbboCBlTZ1-2BzHg33Mu0Wxxmj3P6Eu9MggJOH3ic1hHoAMkFpPwpARGwOUNR6FWmn2B4XetEVg2umo5LAUyy61jHXc8hWpiKUM3wR4-2BzcJlh4OTaXhMKYnUQxLQ1FGfuqnBtzJJrqNKm3-2BJNhqtOBsXBEIeUmxlncXPiz9l3mBMFuGkkEruiDfdApbb9rPkGz5ypQ-3D-3D"
+#SingleMerchantGroupLogoImage
+<|group[x].offers[0].global.assets.theLoopAdImage|> = "https://psprods3EP.azureedge.net/cdn.perkspot.com/prod%2fimages%2femailcontent%2f00000000-0000-0000-0000-000000000000%2f39327%2f240717162118%2fTheLoopAd.png?q=2024-08-14T21:27:13"
+#MerchantName 
+<|group[x].offers[0].global.assets.merchantNameEmail|> = "Rocket Mortgage1"
+#duoImage1
+<|group[x].offers[0].global.assets[0].testimonialMerchantLogos|> = "https://psprods3EP.azureedge.net/cdn.perkspot.com/prod%2fimages%2femailcontent%2f00000000-0000-0000-0000-000000000000%2f39327%2f240717162118%2fTestimonialLogo1.png?q=2024-08-14T21:27:13"
+#duoImage2
+<|group[x].offers[0].global.assets[1].testimonialMerchantLogos|> = "https://psprods3EP.azureedge.net/cdn.perkspot.com/prod%2fimages%2femailcontent%2f00000000-0000-0000-0000-000000000000%2f39327%2f240717162118%2fTestimonialLogo2.png?q=2024-08-14T21:27:13"
+#SavingsStatement1
+<|group[x].offers[0].global.assets.heroHeaderCopy|> = "Buy a home with as little as 1% down"
+#SavingsStatement2
+<|group[x].offers[0].global.assets.closingHeaderCopy|> = "Unlock the equity in your home"
+#Button1Copy
+<|group[x].offers[0].global.assets.heroButtonCopy|> = "Save Now"
+#Button2Copy
+<|group[x].offers[0].global.assets.closingButtonCopy|> = "Save Now"
+#OfferCode
+<|group[x].offers[x].global.assets.heroSubHeaderCopy|> = "PERK321"
+
+
+#SingleMerchantDuoConfig2SingleCTA
+/source/WeeklyPerks_SingleMerchantDuoConfig2.html
+#OfferLink
+<|group[x].offers[0].global.assets.heroLinkToUrl|> = "https://url1672.psnonprod.perkspot.com/ls/click?upn=u001.Dj98eqP9WkUYDfxdQ7y2NM-2FJQdlPqDryrOo1J6ERanBj6-2ByxFf-2FzBsGi4JJyXbCYVrr2T7dM17mUjgLAVZX6LdJB4wMwlh54hKe1JZmbFWV3bPQ-2BmrucWuANLtNCVYTUZ10eup1mdzcDHScLT-2BxxhIeP73nU4g7txdpVWCCNWIvyVX3pznjyqxHyrDLdHeafW-2FmwZkXk1E0bsfvEyW6TcCFpAp-2BPy93bY1b6XRb8MC9dKoiHbqaPEhS7-2FuoAxi5OKGtC90punoLg7-2BTpD-2BZ1Em8BJwaWK9W4KhZrNYbLGANXP3FNCNLOM46MxCCXF-2FScv0vikLgW-2FDv3qMH2Awo3IsYXuljqZSoG27aQxS9ulB8xuDM5fnM3VxZu9ke-2BaLoNbVAyG-2BWaoyXu7lypTJ74Vg-3D-3DhWpV_Ym-2FkSDPyD7XSUqTbkLCbboCBlTZ1-2BzHg33Mu0Wxxmj3P6Eu9MggJOH3ic1hHoAMkFpPwpARGwOUNR6FWmn2B4XetEVg2umo5LAUyy61jHXc8hWpiKUM3wR4-2BzcJlh4OTaXhMKYnUQxLQ1FGfuqnBtzJJrqNKm3-2BJNhqtOBsXBEIeUmxlncXPiz9l3mBMFuGkkEruiDfdApbb9rPkGz5ypQ-3D-3D"
+#SingleMerchantGroupLogoImage
+<|group[x].offers[0].global.assets.theLoopAdImage|> = "https://psprods3EP.azureedge.net/cdn.perkspot.com/prod%2fimages%2femailcontent%2f00000000-0000-0000-0000-000000000000%2f39327%2f240717162118%2fTheLoopAd.png?q=2024-08-14T21:27:13"
+#MerchantName 
+<|group[x].offers[0].global.assets.merchantNameEmail|> = "Rocket Mortgage2"
+#duoImage1
+<|group[x].offers[0].global.assets[0].testimonialMerchantLogos|> = "https://psprods3EP.azureedge.net/cdn.perkspot.com/prod%2fimages%2femailcontent%2f00000000-0000-0000-0000-000000000000%2f39327%2f240717162118%2fTestimonialLogo1.png?q=2024-08-14T21:27:13"
+#duoImage2
+<|group[x].offers[1].global.assets[0].testimonialMerchantLogos|>  = "https://psprods3EP.azureedge.net/cdn.perkspot.com/prod%2fimages%2femailcontent%2f00000000-0000-0000-0000-000000000000%2f39327%2f240717162118%2fTestimonialLogo2.png?q=2024-08-14T21:27:13"
+#SavingsStatement1
+<|group[x].offers[0].global.assets.heroHeaderCopy|> = "Buy a home with as little as 1% down"
+#SavingsStatement2
+<|group[x].offers[0].global.assets.closingHeaderCopy|> = "Unlock the equity in your home"
+#ButtonCopy
+<|group[x].offers[0].global.assets.heroButtonCopy|> = "Save Now"
+#OfferCode
+<|group[x].offers[x].global.assets.heroSubHeaderCopy|> = "PERK321"
+
+
+
+#SingleMerchantTrifectaConfig1MultiCTA
+/source/WeeklyPerks_Panel_Trifecta.html
+#OfferLink
+<|group[x].offers[0].global.assets.heroLinkToUrl|> = "https://url1672.psnonprod.perkspot.com/ls/click?upn=u001.Dj98eqP9WkUYDfxdQ7y2NM-2FJQdlPqDryrOo1J6ERanBj6-2ByxFf-2FzBsGi4JJyXbCYHJ0zw8MVjE95x3GXkUkzjcPXEUpvfyRt7llfpzZFanXx-2F4sDtK7g33JKxQE-2Ft0ZjDs6WRe57DpXkJxSKMilQOK-2FPCOS4FFVW1GWRRiYyANq2RQK9KiFL0gBqW04QpLce6OQtYwria5t8Wd348rd9z7HBocVMtjvJJx54gYbDPTFh2L-2Bh9IO-2Fj6CJEEV6u-2Bc7mUzdWNrcSB3D6nsdLuFKeC9FKMJ6nSir2XmQvMAU0991g3dMPHhmBV2OHxru2PqvI-2BQpOuxqHazwIeX4D5w6XJb2zgvlUjHmDTcTMrkp2fpf2YloejAElfgfeQyAHqnS6wLn_Ym-2FkSDPyD7XSUqTbkLCbboCBlTZ1-2BzHg33Mu0Wxxmj3P6Eu9MggJOH3ic1hHoAMkFpPwpARGwOUNR6FWmn2B4VNkNekXuvk0mtyvABP9Sd0YXYSOWXHVobhELAi7-2FdTYzE5CxYofNtIE-2BcUpPu5jtAd-2FCxCGigCDjwdj3xRw6YEvYV6MBuigpFRT7xHGXQt41dvl6s9v-2BYhXCEwCqx0RbQ-3D-3D"
+#SingleMerchantGroupLogoImage
+<|group[x].offers[0].global.assets.theLoopAdImage|> = "https://psprods3EP.azureedge.net/cdn.perkspot.com/prod%2fimages%2femailcontent%2f00000000-0000-0000-0000-000000000000%2f39427%2f240718194756%2fTheLoopAd.png?q=2024-07-18T19:47:59"
+#MerchantName 
+<|group[x].offers[0].global.assets.merchantNameEmail|> = "Lenovo"
+#TrifectaImage1
+<|group[x].offers[0].global.assets[0].testimonialMerchantLogos|> = "https://psprods3EP.azureedge.net/cdn.perkspot.com/prod%2fimages%2femailcontent%2f00000000-0000-0000-0000-000000000000%2f39427%2f240718194756%2fTestimonialLogo1.png?q=2024-07-18T19:47:59"
+#TrifectaImage2
+<|group[x].offers[0].global.assets[1].testimonialMerchantLogos|> = "https://psprods3EP.azureedge.net/cdn.perkspot.com/prod%2fimages%2femailcontent%2f00000000-0000-0000-0000-000000000000%2f39427%2f240718194756%2fTestimonialLogo2.png?q=2024-07-18T19:47:60"
+#TrifectaImage3
+<|group[x].offers[x].global.assets[2].testimonialMerchantLogos|> = "https://psprods3EP.azureedge.net/cdn.perkspot.com/prod%2fimages%2femailcontent%2f00000000-0000-0000-0000-000000000000%2f39427%2f240718194756%2fTestimonialLogo3.png?q=2024-07-18T19:46:59"
+#SavingsStatement
+<|group[x].offers[0].global.assets.heroHeaderCopy|> = "Laptops under $250"
+#SavingsStatement2
+<|group[x].offers[0].global.assets.closingHeaderCopy|> = "Trending deals"
+#SavingsStatement3
+<|group[x].offers[0].global.assets.quoteCopy|> = "Savings for the gamers"
+#Button1 
+<|group[x].offers[0].global.assets.heroButtonCopy|> = "Save Now"
+#Button2
+<|group[x].offers[1].global.assets.heroButtonCopy|> = "Save Now"
+#Button2 
+<|group[x].offers[2].global.assets.heroButtonCopy|> = "Save Now"
+#OfferCode
+<|group[x].offers[0].global.assets.heroSubHeaderCopy|> = "OFFER123"
+
+
+#SingleMerchantTrifectaConfig2SingleCTA
+/source/WeeklyPerks_SingleMerchantTrifectaConfig2.html
+#OfferLink
+<|group[x].offers[0].global.assets.heroLinkToUrl|> = "https://url1672.psnonprod.perkspot.com/ls/click?upn=u001.Dj98eqP9WkUYDfxdQ7y2NM-2FJQdlPqDryrOo1J6ERanBj6-2ByxFf-2FzBsGi4JJyXbCYHJ0zw8MVjE95x3GXkUkzjcPXEUpvfyRt7llfpzZFanXx-2F4sDtK7g33JKxQE-2Ft0ZjDs6WRe57DpXkJxSKMilQOK-2FPCOS4FFVW1GWRRiYyANq2RQK9KiFL0gBqW04QpLce6OQtYwria5t8Wd348rd9z7HBocVMtjvJJx54gYbDPTFh2L-2Bh9IO-2Fj6CJEEV6u-2Bc7mUzdWNrcSB3D6nsdLuFKeC9FKMJ6nSir2XmQvMAU0991g3dMPHhmBV2OHxru2PqvI-2BQpOuxqHazwIeX4D5w6XJb2zgvlUjHmDTcTMrkp2fpf2YloejAElfgfeQyAHqnS6wLn_Ym-2FkSDPyD7XSUqTbkLCbboCBlTZ1-2BzHg33Mu0Wxxmj3P6Eu9MggJOH3ic1hHoAMkFpPwpARGwOUNR6FWmn2B4VNkNekXuvk0mtyvABP9Sd0YXYSOWXHVobhELAi7-2FdTYzE5CxYofNtIE-2BcUpPu5jtAd-2FCxCGigCDjwdj3xRw6YEvYV6MBuigpFRT7xHGXQt41dvl6s9v-2BYhXCEwCqx0RbQ-3D-3D"
+#SingleMerchantGroupLogoImage
+<|group[x].offers[0].global.assets.theLoopAdImage|> = "https://psprods3EP.azureedge.net/cdn.perkspot.com/prod%2fimages%2femailcontent%2f00000000-0000-0000-0000-000000000000%2f39427%2f240718194756%2fTheLoopAd.png?q=2024-07-18T19:47:59"
+#MerchantName 
+<|group[x].offers[0].global.assets.merchantNameEmail|> = "Lenovo"
+#TrifectaImage1
+<|group[x].offers[0].global.assets[0].testimonialMerchantLogos|> = "https://psprods3EP.azureedge.net/cdn.perkspot.com/prod%2fimages%2femailcontent%2f00000000-0000-0000-0000-000000000000%2f39427%2f240718194756%2fTestimonialLogo1.png?q=2024-07-18T19:47:59"
+#TrifectaImage2
+<|group[x].offers[0].global.assets[1].testimonialMerchantLogos|> = "https://psprods3EP.azureedge.net/cdn.perkspot.com/prod%2fimages%2femailcontent%2f00000000-0000-0000-0000-000000000000%2f39427%2f240718194756%2fTestimonialLogo2.png?q=2024-07-18T19:37:59"
+#TrifectaImage3
+<|group[x].offers[x].global.assets[2].testimonialMerchantLogos|> = "https://psprods3EP.azureedge.net/cdn.perkspot.com/prod%2fimages%2femailcontent%2f00000000-0000-0000-0000-000000000000%2f39427%2f240718194756%2fTestimonialLogo3.png?q=2024-07-18T19:27:59"
+#SavingsStatement
+<|group[x].offers[0].global.assets.heroHeaderCopy|> = "Laptops under $250"
+#SavingsStatement2
+<|group[x].offers[0].global.assets.closingHeaderCopy|> = "Trending deals"
+#SavingsStatement3
+<|group[x].offers[0].global.assets.quoteCopy|> = "Savings for the gamers"
+#Button1 
+<|group[x].offers[0].global.assets.heroButtonCopy|> = "Save Now"
+#OfferCode
+<|group[x].offers[0].global.assets.heroSubHeaderCopy|> = "OFFER123"
+
+
+
+#MultiMerchantDuoConfig1Featured
+/source/WeeklyPerks_Panel_MultiMerchantDuo.html
+#Headline
+<|group[x].offers[0].global.assets.heroDetailsCopy|> = "Multi-Merchant Duo Config 1: Featured"
+#OfferLink1
+<|group[x].offers[0].global.assets.heroLinkToUrl|> = "www.example.com"
+#MultiMerchantDuoImage1
+<|group[x].offers[0].global.assets[0].testimonialMerchantLogos|> = "https://cms.perkspot.com/media/yxqfc05n/template-duo-logo-image.png"
+#MerchantName1
+<|group[x].offers[0].global.assets.merchantNameEmail|> = "Merchant1 Name"
+#SavingsStatement1
+<|group[x].offers[0].global.assets.heroHeaderCopy|> = "Savings Statement1"
+#OfferCode1
+<|group[x].offers[0].global.assets.heroSubHeaderCopy|> = "PERK123"
+#Button1
+<|group[x].offers[0].global.assets.heroButtonCopy|> = "Save Now"
+#OfferLink2
+<|group[x].offers[1].global.assets.heroLinkToUrl|> = "www.example.com"
+#MultiMerchantDuoImage2
+<|group[x].offers[1].global.assets[0].testimonialMerchantLogos|> = "https://cms.perkspot.com/media/yxqfc05n/template-duo-logo-image.png"
+#MerchantName2
+<|group[x].offers[1].global.assets.merchantNameEmail|> = "Merchant2 Name"
+#SavingsStatement2
+<|group[x].offers[1].global.assets.heroHeaderCopy|> = "Savings Statement2"
+#OfferCode2
+<|group[x].offers[1].global.assets.heroSubHeaderCopy|> = "PERK321"
+#Button2
+<|group[x].offers[1].global.assets.heroButtonCopy|> = "Save Now"
+
+
+#MultiMerchantDuoConfig2Simple
+/source/WeeklyPerks_MultiMerchantDuoConfig2.html
+#OfferLink1
+<|group[x].offers[0].global.assets.heroLinkToUrl|> = "www.example.com"
+#MultiMerchantDuoImage1
+<|group[x].offers[0].global.assets[0].testimonialMerchantLogos|> = "https://cms.perkspot.com/media/yxqfc05n/template-duo-logo-image.png"
+#MerchantName1
+<|group[x].offers[0].global.assets.merchantNameEmail|> = "Merchant1 Name"
+#SavingsStatement1
+<|group[x].offers[0].global.assets.heroHeaderCopy|> = "Savings Statement1"
+#OfferCode1
+<|group[x].offers[0].global.assets.heroSubHeaderCopy|> = "PERK123"
+#Button1
+<|group[x].offers[0].global.assets.heroButtonCopy|> = "Save Now"
+#OfferLink2
+<|group[x].offers[1].global.assets.heroLinkToUrl|> = "www.example.com"
+#MultiMerchantDuoImage2
+<|group[x].offers[1].global.assets[0].testimonialMerchantLogos|> = "https://cms.perkspot.com/media/yxqfc05n/template-duo-logo-image.png"
+#MerchantName2
+<|group[x].offers[1].global.assets.merchantNameEmail|> = "Merchant2 Name"
+#SavingsStatement2
+<|group[x].offers[1].global.assets.heroHeaderCopy|> = "Savings Statement2"
+#OfferCode2
+<|group[x].offers[1].global.assets.heroSubHeaderCopy|> = "PERK321"
+#Button2
+<|group[x].offers[1].global.assets.heroButtonCopy|> = "Save Now"
+
+
+#MultiMerchantTrifectaConfig1Featured
+/source/WeeklyPerks_Panel_SmallSmallSmall.html
+#Headline
+<|group[x].offers[0].global.assets.heroDetailsCopy|> = "Trending Deals"
+#OfferLink1
+<|group[x].offers[0].global.assets.heroLinkToUrl|> = "https://url1672.psnonprod.perkspot.com/ls/click?upn=u001.Dj98eqP9WkUYDfxdQ7y2NM-2FJQdlPqDryrOo1J6ERanBj6-2ByxFf-2FzBsGi4JJyXbCY3QckV6kp4guuqAMy3w8-2FKjiz8aY5kt1TX8vp1LHx8SRv7FhEnguCne7EeW2Ar7n0dgGuGlfTxIA9mBofBy04a6IsFk-2FM-2BS1y9ebv3-2FM8CKFu2-2BhrW4qA-2BEDq8JrH-2FfXNtOB-2BDx1X7xqho2xYxRC3HsCTZYMiwTjEF98OP9knhO50Bxunqd4W9-2FeFvMXX8vT-2FvNlWkvwy2lAeHfUT-2FCVuUzTz-2F6idrdweKKo5iun-2FZoIfWlhObu-2F7k50IFEQcMCzsuosRT9rg1gWyoWUJzakPb-2B7XD0K04KYODI3KIe7ex0AiVu9DDB0I1nEUERQDdldq8sd9EemAzhTNo9OkUE7JFA-3D-3Dqw6R_Ym-2FkSDPyD7XSUqTbkLCbboCBlTZ1-2BzHg33Mu0Wxxmj3P6Eu9MggJOH3ic1hHoAMkFpPwpARGwOUNR6FWmn2B4Y3WR9zSodgtadBH1hD0VxrGtAUfXps38KNQ-2FslLaPK-2FRxk8VtD169UXGEzrUYeX-2BajqVd0ukBCF8MG7rht5ugLTq8HhOu5sWExYZCLxTzDX-2B2JCEqbkHYxPUHheNJzZDA-3D-3D"
+#TrifectaMerchantImage1
+<|group[x].offers[0].global.assets[0].testimonialMerchantLogos|> = "https://psprods3EP.azureedge.net/cdn.perkspot.com/prod%2fimages%2femailcontent%2f00000000-0000-0000-0000-000000000000%2f39202%2f240715152326%2fTestimonialLogo1.png?q=2024-07-29T15:47:11"
+#MerchantName1
+<|group[x].offers[0].global.assets.merchantNameEmail|> = "Spot Pet Insurance"
+#SavingStatement1
+<|group[x].offers[0].global.assets.heroHeaderCopy|> = "20% Off Pet Insurance"
+#OfferCode1
+<|group[x].offers[0].global.assets.heroSubHeaderCopy|> = "1234"
+#ButtonCopy1
+<|group[x].offers[0].global.assets.heroButtonCopy|> = "Save Now"
+#OfferLink2
+<|group[x].offers[1].global.assets.heroLinkToUrl|> = "https://url1672.psnonprod.perkspot.com/ls/click?upn=u001.Dj98eqP9WkUYDfxdQ7y2NM-2FJQdlPqDryrOo1J6ERanBj6-2ByxFf-2FzBsGi4JJyXbCYQN-2FrOPWF8La-2Ffq6D19nbijpmtUXfokStVFXycctOUZ36RwJCc2qxwTC-2F5r35lkmoGbY31GNU3ERUhybp2cFI7iUx3hVM51UTvZY48tNwE9tj4xyACVm1r4qhoYHqCf3DASqZQc1ilGS0aaYOEdTsB1j-2BehMes3ynvFCUGrVO3-2BMxvD-2F7Q1UW5Q3lGb-2BMiMkV7s65kvgoz2F-2F7F1zq-2FQCirH0Q-2Bb041tSA-2F13kFkevBSwX-2Bm9nmqvSCv6uw0t3sBThNy0CcfBLSaDjv4HHQH1him9dij7G2kK73TkIYJWMdreNfmEbKTIh6ufd2cI6ebSELTn_Ym-2FkSDPyD7XSUqTbkLCbboCBlTZ1-2BzHg33Mu0Wxxmj3P6Eu9MggJOH3ic1hHoAMkFpPwpARGwOUNR6FWmn2B4cbeGl6Wt0xYbztPOKVrC9ZXGFV7t-2Fx0sdN3XVp7-2BiHH3aImCtmmw-2B9cgjPrjZvJd-2Bzr4IavT48rCOAFwkweCRHjjqNb0tgDgEyxBS9EIKbh-2BGmjKFekVMRFZ184vf5VdA-3D-3D"
+#TrifectaMerchantImage2
+<|group[x].offers[1].global.assets[0].testimonialMerchantLogos|> = "https://psprods3EP.azureedge.net/cdn.perkspot.com/prod%2fimages%2femailcontent%2f00000000-0000-0000-0000-000000000000%2f39204%2f240715152559%2fTestimonialLogo1.png?q=2024-07-15T15:26:03"
+#MerchantName2
+<|group[x].offers[1].global.assets.merchantNameEmail|> = "Crocs"
+#SavingStatement2
+<|group[x].offers[1].global.assets.heroHeaderCopy|> = "20% Off Select Styles"
+#OfferCode2
+<|group[x].offers[1].global.assets.heroSubHeaderCopy|> = "PERKSPOT20"
+#ButtonCopy2
+<|group[x].offers[1].global.assets.heroButtonCopy|> = "Save Now"
+#OfferLink3
+<|group[x].offers[2].global.assets.heroLinkToUrl|> = "https://url1672.psnonprod.perkspot.com/ls/click?upn=u001.Dj98eqP9WkUYDfxdQ7y2NM-2FJQdlPqDryrOo1J6ERanBj6-2ByxFf-2FzBsGi4JJyXbCYQ11-2FEu85LpuzIaivhsMmmazBy-2FAC7c34tNzZ0wENMB3BA3ZoYRB7p1UABHlyUYUHrVSKiMyM7OTWvC0G8fnbtuydYYPNa2bun5fYLNGyrkHPz77sxiNlaGIckkNwTZ4Sg4L6wO9aT1BMBqJIOyZiC6D9fLrKhp7Q1lUJifCQMAlBv7iafX-2Fl0m8zx9KJY-2BWtE6dKsnVAxuv3siUgHa15HaqjYuMX2-2BhXZ-2BPJ4-2FzGxRlvjGHjsEDTxzPpGUR3gEQmj54zD4aVF8-2Fl9sPTxOX-2F5DP-2FVrOUHgyK7i7GQRTtwlyv4NElYVMvw8sn8Rl8idZmODrKdcnJmbJdak6g-2FknboA-3D-3Dnpg2_Ym-2FkSDPyD7XSUqTbkLCbboCBlTZ1-2BzHg33Mu0Wxxmj3P6Eu9MggJOH3ic1hHoAMkFpPwpARGwOUNR6FWmn2B4Rl4tlgXCrDHTQEaqLH8a3ZUVYfnA0phrl7BQNXAo61niggryhOXCIGFZuXFj6FGPY7XRVPZnYaYlGG6dUEC-2FEYcM2XwwiSSZNRNgK5P5TZ-2BFmXNa5mvUAA6Wg3vk0DXKw-3D-3D"
+#TrifectaMerchantImage3
+<|group[x].offers[2].global.assets[0].testimonialMerchantLogos|> = "https://psprods3EP.azureedge.net/cdn.perkspot.com/prod%2fimages%2femailcontent%2f00000000-0000-0000-0000-000000000000%2f39196%2f240715151542%2fTestimonialLogo1.png?q=2024-07-26T15:48:59"
+#MerchantName3
+<|group[x].offers[2].global.assets.merchantNameEmail|> = "BetterHelp"
+#SavingStatement3
+<|group[x].offers[2].global.assets.heroHeaderCopy|> = "50% Off Online Therapy"
+#OfferCode3
+<|group[x].offers[2].global.assets.heroSubHeaderCopy|> = "1234"
+#ButtonCopy3
+<|group[x].offers[2].global.assets.heroButtonCopy|> = "Save Now"
+
+
+#MultiMerchantTrifectaConfig2Simple
+/source/WeeklyPerks_MultiMerchantTrifectaConfig2.html
+#OfferLink1
+<|group[x].offers[0].global.assets.heroLinkToUrl|> = "https://url1672.psnonprod.perkspot.com/ls/click?upn=u001.Dj98eqP9WkUYDfxdQ7y2NM-2FJQdlPqDryrOo1J6ERanBj6-2ByxFf-2FzBsGi4JJyXbCY3QckV6kp4guuqAMy3w8-2FKjiz8aY5kt1TX8vp1LHx8SRv7FhEnguCne7EeW2Ar7n0dgGuGlfTxIA9mBofBy04a6IsFk-2FM-2BS1y9ebv3-2FM8CKFu2-2BhrW4qA-2BEDq8JrH-2FfXNtOB-2BDx1X7xqho2xYxRC3HsCTZYMiwTjEF98OP9knhO50Bxunqd4W9-2FeFvMXX8vT-2FvNlWkvwy2lAeHfUT-2FCVuUzTz-2F6idrdweKKo5iun-2FZoIfWlhObu-2F7k50IFEQcMCzsuosRT9rg1gWyoWUJzakPb-2B7XD0K04KYODI3KIe7ex0AiVu9DDB0I1nEUERQDdldq8sd9EemAzhTNo9OkUE7JFA-3D-3Dqw6R_Ym-2FkSDPyD7XSUqTbkLCbboCBlTZ1-2BzHg33Mu0Wxxmj3P6Eu9MggJOH3ic1hHoAMkFpPwpARGwOUNR6FWmn2B4Y3WR9zSodgtadBH1hD0VxrGtAUfXps38KNQ-2FslLaPK-2FRxk8VtD169UXGEzrUYeX-2BajqVd0ukBCF8MG7rht5ugLTq8HhOu5sWExYZCLxTzDX-2B2JCEqbkHYxPUHheNJzZDA-3D-3D"
+#TrifectaMerchantImage1
+<|group[x].offers[0].global.assets[0].testimonialMerchantLogos|> = "https://psprods3EP.azureedge.net/cdn.perkspot.com/prod%2fimages%2femailcontent%2f00000000-0000-0000-0000-000000000000%2f39202%2f240715152326%2fTestimonialLogo1.png?q=2024-07-29T15:43:11"
+#MerchantName1
+<|group[x].offers[0].global.assets.merchantNameEmail|> = "Spot Pet Insurance"
+#SavingStatement1
+<|group[x].offers[0].global.assets.heroHeaderCopy|> = "20% Off Pet Insurance"
+#OfferCode1
+<|group[x].offers[0].global.assets.heroSubHeaderCopy|> = "1234"
+#ButtonCopy1
+<|group[x].offers[0].global.assets.heroButtonCopy|> = "Save Now"
+#OfferLink2
+<|group[x].offers[1].global.assets.heroLinkToUrl|> = "https://url1672.psnonprod.perkspot.com/ls/click?upn=u001.Dj98eqP9WkUYDfxdQ7y2NM-2FJQdlPqDryrOo1J6ERanBj6-2ByxFf-2FzBsGi4JJyXbCYQN-2FrOPWF8La-2Ffq6D19nbijpmtUXfokStVFXycctOUZ36RwJCc2qxwTC-2F5r35lkmoGbY31GNU3ERUhybp2cFI7iUx3hVM51UTvZY48tNwE9tj4xyACVm1r4qhoYHqCf3DASqZQc1ilGS0aaYOEdTsB1j-2BehMes3ynvFCUGrVO3-2BMxvD-2F7Q1UW5Q3lGb-2BMiMkV7s65kvgoz2F-2F7F1zq-2FQCirH0Q-2Bb041tSA-2F13kFkevBSwX-2Bm9nmqvSCv6uw0t3sBThNy0CcfBLSaDjv4HHQH1him9dij7G2kK73TkIYJWMdreNfmEbKTIh6ufd2cI6ebSELTn_Ym-2FkSDPyD7XSUqTbkLCbboCBlTZ1-2BzHg33Mu0Wxxmj3P6Eu9MggJOH3ic1hHoAMkFpPwpARGwOUNR6FWmn2B4cbeGl6Wt0xYbztPOKVrC9ZXGFV7t-2Fx0sdN3XVp7-2BiHH3aImCtmmw-2B9cgjPrjZvJd-2Bzr4IavT48rCOAFwkweCRHjjqNb0tgDgEyxBS9EIKbh-2BGmjKFekVMRFZ184vf5VdA-3D-3D"
+#TrifectaMerchantImage2
+<|group[x].offers[1].global.assets[0].testimonialMerchantLogos|> = "https://psprods3EP.azureedge.net/cdn.perkspot.com/prod%2fimages%2femailcontent%2f00000000-0000-0000-0000-000000000000%2f39204%2f240715152559%2fTestimonialLogo1.png?q=2024-07-15T15:16:03"
+#MerchantName2
+<|group[x].offers[1].global.assets.merchantNameEmail|> = "Crocs"
+#SavingStatement2
+<|group[x].offers[1].global.assets.heroHeaderCopy|> = "20% Off Select Styles"
+#OfferCode2
+<|group[x].offers[1].global.assets.heroSubHeaderCopy|> = "PERKSPOT20"
+#ButtonCopy2
+<|group[x].offers[1].global.assets.heroButtonCopy|> = "Save Now"
+#OfferLink3
+<|group[x].offers[2].global.assets.heroLinkToUrl|> = "https://url1672.psnonprod.perkspot.com/ls/click?upn=u001.Dj98eqP9WkUYDfxdQ7y2NM-2FJQdlPqDryrOo1J6ERanBj6-2ByxFf-2FzBsGi4JJyXbCYQ11-2FEu85LpuzIaivhsMmmazBy-2FAC7c34tNzZ0wENMB3BA3ZoYRB7p1UABHlyUYUHrVSKiMyM7OTWvC0G8fnbtuydYYPNa2bun5fYLNGyrkHPz77sxiNlaGIckkNwTZ4Sg4L6wO9aT1BMBqJIOyZiC6D9fLrKhp7Q1lUJifCQMAlBv7iafX-2Fl0m8zx9KJY-2BWtE6dKsnVAxuv3siUgHa15HaqjYuMX2-2BhXZ-2BPJ4-2FzGxRlvjGHjsEDTxzPpGUR3gEQmj54zD4aVF8-2Fl9sPTxOX-2F5DP-2FVrOUHgyK7i7GQRTtwlyv4NElYVMvw8sn8Rl8idZmODrKdcnJmbJdak6g-2FknboA-3D-3Dnpg2_Ym-2FkSDPyD7XSUqTbkLCbboCBlTZ1-2BzHg33Mu0Wxxmj3P6Eu9MggJOH3ic1hHoAMkFpPwpARGwOUNR6FWmn2B4Rl4tlgXCrDHTQEaqLH8a3ZUVYfnA0phrl7BQNXAo61niggryhOXCIGFZuXFj6FGPY7XRVPZnYaYlGG6dUEC-2FEYcM2XwwiSSZNRNgK5P5TZ-2BFmXNa5mvUAA6Wg3vk0DXKw-3D-3D"
+#TrifectaMerchantImage3
+<|group[x].offers[2].global.assets[0].testimonialMerchantLogos|> = "https://psprods3EP.azureedge.net/cdn.perkspot.com/prod%2fimages%2femailcontent%2f00000000-0000-0000-0000-000000000000%2f39196%2f240715151542%2fTestimonialLogo1.png?q=2024-07-26T15:28:59"
+#MerchantName3
+<|group[x].offers[2].global.assets.merchantNameEmail|> = "BetterHelp"
+#SavingStatement3
+<|group[x].offers[2].global.assets.heroHeaderCopy|> = "50% Off Online Therapy"
+#OfferCode3
+<|group[x].offers[2].global.assets.heroSubHeaderCopy|> = "1234"
+#ButtonCopy3
+<|group[x].offers[2].global.assets.heroButtonCopy|> = "Save Now"
+
+
+#CampaignPromo
+/source/WeeklyPerks_CampaignPromo.html
+<|group[x].offers[0].global.assets.heroLinkToUrl|> = "www.google.com"
+<|group[x].offers[0].global.assets.heroDedicatedImage|> = "https://cms.perkspot.com/media/yx3f1xdi/template-campaign-promo-image-mobile.png"
+
+#CampaignFooter
+/source/WeeklyPerks_CampaignFooter.html
+<|group[x].offers[0].global.assets.heroLinkToUrl|> = "www.google.com"
+<|group[x].offers[x].global.assets.heroDedicatedImage|> = "https://cms.perkspot.com/media/r4hbfawh/template-footer-campaign-image.png"
+
+
+
+/source/WeeklyPerks_Footer.html
+<|communityname|> = "Chipotle"
+<|disclaimers|> = "Disclaimers Here"
+<|optouturl|> = "www.example.com"
