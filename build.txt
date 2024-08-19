@@ -29,9 +29,9 @@
 #LargeLogoImage
 <|group[x].offers[x].global.assets.heroDedicatedImage|> = "https://psprods3EP.azureedge.net/cdn.perkspot.com/prod%2fimages%2femailcontent%2f00000000-0000-0000-0000-000000000000%2f39211%2f240715154349%2fDedicatedHero.png?q=2024-08-06T15:06:48" 
 #MerchantName
-<|group[x].offers[x].global.assets.merchantNameEmail|> = "GlassesUSA.com"
+<|group[x].offers[x].global.assets.merchantNameEmail|> = "Large Placement"
 #SavingsStatement
-<|group[x].offers[x].global.assets.heroHeaderCopy|> = "55% Off Frames + 8% in Reward Points*" 
+<|group[x].offers[x].global.assets.heroHeaderCopy|> = "Large Placement Savings Statement" 
 #OfferCode
 <|group[x].offers[x].global.assets.heroSubHeaderCopy|> = "PERK5" 
 #ButtonCopy
@@ -221,9 +221,9 @@
 #TrifectaMerchantImage2
 <|group[x].offers[1].global.assets[0].testimonialMerchantLogos|> = "https://psprods3EP.azureedge.net/cdn.perkspot.com/prod%2fimages%2femailcontent%2f00000000-0000-0000-0000-000000000000%2f39204%2f240715152559%2fTestimonialLogo1.png?q=2024-07-15T15:26:03"
 #MerchantName2
-<|group[x].offers[1].global.assets.merchantNameEmail|> = "Crocs"
+<|group[x].offers[1].global.assets.merchantNameEmail|> = "merchantNameEmail"
 #SavingStatement2
-<|group[x].offers[1].global.assets.heroHeaderCopy|> = "20% Off Select Styles"
+<|group[x].offers[1].global.assets.heroHeaderCopy|> = "heroHeaderCopy"
 #OfferCode2
 <|group[x].offers[1].global.assets.heroSubHeaderCopy|> = "PERKSPOT20"
 #ButtonCopy2
